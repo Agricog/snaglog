@@ -5,7 +5,6 @@ import {
   CheckCircle2, 
   Upload, 
   Sparkles, 
-  Download,
   Home,
   Building2,
   HardHat,
@@ -56,7 +55,7 @@ function App() {
     },
     {
       q: "What's included in the free demo?",
-      a: "The free demo lets you try the full workflow with up to 10 snags. You'll receive a watermarked PDF showing exactly what the full report looks like."
+      a: "The free demo report shows you exactly what a full SnagLog report looks like - complete with sample snags, severity ratings, trade assignments, and professional formatting."
     }
   ];
 
@@ -139,22 +138,14 @@ function App() {
               Upload photos, AI identifies defects, download your PDF.
             </p>
 
-            {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            {/* CTA */}
+            <div className="flex justify-center mb-12">
               <a 
                 href="#get-started"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
               >
-                Start Free Report
+                Get Free Demo Report
                 <ArrowRight className="w-5 h-5" />
-              </a>
-              <a 
-                href="/SnagLog-Demo-Report.pdf"
-                download
-                className="inline-flex items-center justify-center gap-2 bg-white text-slate-700 px-8 py-4 rounded-xl font-bold text-lg border-2 border-slate-200 hover:border-orange-300 hover:text-orange-600 transition-all"
-              >
-                <Download className="w-5 h-5" />
-                View Demo Report
               </a>
             </div>
 
@@ -344,31 +335,13 @@ function App() {
               Simple, Transparent Pricing
             </h2>
             <p className="text-xl text-slate-600">
-              Try free, pay only when you need the full report
+              Pay only when you need a full report
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {/* Free */}
-            <div className="bg-white rounded-2xl p-8 border border-slate-200">
-              <div className="text-lg font-semibold text-slate-600 mb-2">Demo</div>
-              <div className="text-4xl font-bold text-slate-800 mb-1">Free</div>
-              <div className="text-slate-500 mb-6">Try before you buy</div>
-              <ul className="space-y-3 mb-8">
-                {["Up to 10 snags", "Watermarked PDF", "Full AI analysis", "7-day access"].map((item, i) => (
-                  <li key={i} className="flex items-center gap-2 text-slate-600">
-                    <CheckCircle2 className="w-5 h-5 text-green-500 flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <a href="#get-started" className="block text-center py-3 px-6 rounded-lg border-2 border-slate-200 text-slate-700 font-semibold hover:border-orange-300 hover:text-orange-600 transition-all">
-                Start Free
-              </a>
-            </div>
-
+          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {/* Single Report - Featured */}
-            <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl p-8 text-white transform md:scale-105 shadow-xl">
+            <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl p-8 text-white shadow-xl">
               <div className="flex items-center justify-between mb-2">
                 <div className="text-lg font-semibold text-orange-100">Single Report</div>
                 <div className="bg-white/20 px-3 py-1 rounded-full text-sm font-medium">Most Popular</div>
@@ -384,7 +357,7 @@ function App() {
                 ))}
               </ul>
               <a href="#get-started" className="block text-center py-3 px-6 rounded-lg bg-white text-orange-600 font-bold hover:bg-orange-50 transition-all">
-                Get Full Report
+                Get Started
               </a>
             </div>
 
@@ -464,7 +437,7 @@ function App() {
             Ready to Create Your Snag List?
           </h2>
           <p className="text-xl text-orange-100 mb-8">
-            Sign up below to get early access and download the demo report
+            Enter your details below to get the free demo report
           </p>
 
           {/* SmartSuite Form Embed */}
@@ -477,9 +450,6 @@ function App() {
               title="SnagLog Signup Form"
               className="rounded-lg"
             />
-            <p className="text-slate-500 text-sm mt-4">
-              After signing up, you'll receive the demo PDF and early access to SnagLog
-            </p>
           </div>
 
           {/* Alternative contact */}
