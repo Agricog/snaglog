@@ -346,7 +346,7 @@ function App() {
                 <div className="text-lg font-semibold text-orange-100">Single Report</div>
                 <div className="bg-white/20 px-3 py-1 rounded-full text-sm font-medium">Most Popular</div>
               </div>
-              <div className="text-4xl font-bold mb-1">£12.99</div>
+              <div className="text-4xl font-bold mb-1">£19.99</div>
               <div className="text-orange-100 mb-6">One-time payment</div>
               <ul className="space-y-3 mb-8">
                 {["Unlimited snags", "No watermark", "Full PDF report", "Email to developer", "Lifetime access"].map((item, i) => (
