@@ -79,10 +79,10 @@ function App() {
               <a href="#pricing" className="text-slate-600 hover:text-orange-600 transition-colors">Pricing</a>
               <a href="#faq" className="text-slate-600 hover:text-orange-600 transition-colors">FAQ</a>
               <a 
-                href="#get-started" 
+                href="https://app.snaglog.co.uk" 
                 className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-5 py-2 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all shadow-md hover:shadow-lg"
               >
-                Get Started Free
+                Get Started
               </a>
             </div>
 
@@ -104,10 +104,10 @@ function App() {
               <a href="#pricing" className="text-slate-600 hover:text-orange-600">Pricing</a>
               <a href="#faq" className="text-slate-600 hover:text-orange-600">FAQ</a>
               <a 
-                href="#get-started" 
+                href="https://app.snaglog.co.uk" 
                 className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-5 py-3 rounded-lg font-semibold text-center"
               >
-                Get Started Free
+                Get Started
               </a>
             </div>
           </div>
@@ -141,10 +141,10 @@ function App() {
             {/* CTA */}
             <div className="flex justify-center mb-12">
               <a 
-                href="#get-started"
+                href="https://app.snaglog.co.uk"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-orange-600 hover:to-orange-700 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
               >
-                Get Free Demo Report
+                Get Started Free
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -356,7 +356,7 @@ function App() {
                   </li>
                 ))}
               </ul>
-              <a href="#get-started" className="block text-center py-3 px-6 rounded-lg bg-white text-orange-600 font-bold hover:bg-orange-50 transition-all">
+              <a href="https://app.snaglog.co.uk" className="block text-center py-3 px-6 rounded-lg bg-white text-orange-600 font-bold hover:bg-orange-50 transition-all">
                 Get Started
               </a>
             </div>
@@ -364,7 +364,7 @@ function App() {
             {/* Pro */}
             <div className="bg-white rounded-2xl p-8 border border-slate-200">
               <div className="text-lg font-semibold text-slate-600 mb-2">Pro Monthly</div>
-              <div className="text-4xl font-bold text-slate-800 mb-1">£39<span className="text-lg font-normal text-slate-500">/mo</span></div>
+              <div className="text-4xl font-bold text-slate-800 mb-1">£99<span className="text-lg font-normal text-slate-500">/mo</span></div>
               <div className="text-slate-500 mb-6">For professionals</div>
               <ul className="space-y-3 mb-8">
                 {["Unlimited reports", "Priority processing", "Custom branding", "Team access", "Cancel anytime"].map((item, i) => (
@@ -374,7 +374,7 @@ function App() {
                   </li>
                 ))}
               </ul>
-              <a href="#get-started" className="block text-center py-3 px-6 rounded-lg border-2 border-slate-200 text-slate-700 font-semibold hover:border-orange-300 hover:text-orange-600 transition-all">
+              <a href="mailto:hello@snaglog.co.uk" className="block text-center py-3 px-6 rounded-lg border-2 border-slate-200 text-slate-700 font-semibold hover:border-orange-300 hover:text-orange-600 transition-all">
                 Contact Us
               </a>
             </div>
@@ -430,27 +430,23 @@ function App() {
         </div>
       </section>
 
-      {/* CTA / Form Section */}
+      {/* CTA Section */}
       <section id="get-started" className="py-20 bg-gradient-to-br from-orange-500 to-orange-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Create Your Snag List?
           </h2>
           <p className="text-xl text-orange-100 mb-8">
-            Enter your details below to get the free demo report
+            Start your snagging report in minutes
           </p>
 
-          {/* SmartSuite Form Embed */}
-          <div className="bg-white rounded-2xl p-8 shadow-2xl max-w-xl mx-auto">
-            <iframe 
-              src="https://app.smartsuite.com/form/sba974gi/ApfaWcpNcD?header=false" 
-              width="100%" 
-              height="600" 
-              frameBorder="0"
-              title="SnagLog Signup Form"
-              className="rounded-lg"
-            />
-          </div>
+          <a 
+            href="https://app.snaglog.co.uk"
+            className="inline-flex items-center justify-center gap-2 bg-white text-orange-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all shadow-lg"
+          >
+            Get Started Free
+            <ArrowRight className="w-5 h-5" />
+          </a>
 
           {/* Alternative contact */}
           <p className="text-orange-100 mt-8">
